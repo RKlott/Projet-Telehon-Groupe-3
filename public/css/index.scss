@@ -1,0 +1,32 @@
+//*Base
+@import "./scss/base/reset";
+@import "./scss/base/typography";
+
+//*Utils
+@import "./scss/utils/variables";
+@import "./scss/utils/functions";
+@import "./scss/utils/mixins";
+@import "./scss/utils/helpers";
+
+//*Components
+@import "./scss/components/buttons";
+@import "./scss/components/forms";
+
+//*Layout
+@import "./scss/layout/header";
+@import "./scss/layout/footer";
+
+//*Pages
+///*front-office
+@import "../../style.scss"; //? fichier style du index.php
+@import "../pages/front-office/_compteur/compteur.scss";
+@import "../pages/front-office/blog/blog.scss";
+@import "../pages/front-office/evenements/evenements.scss";
+@import "../pages/front-office/partenaires/partenaires.scss";
+///*back-office
+@import "../pages/back-office/blog/blog.scss";
+@import "../pages/back-office/collectes/collectes.scss";
+@import "../pages/back-office/evenements/evenements.scss";
+@import "../pages/back-office/partenaires/partenaires.scss";
+@import "../pages/back-office/profil/profil.scss";
+@import "../pages/back-office/utilisateurs/utilisateurs.scss";
