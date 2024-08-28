@@ -2,7 +2,7 @@
 
 <?php  require '../include/header.php'; ?>
 
-<main>
+<main id="partenaires-php">
     Le conentu de la page
 
 </main>

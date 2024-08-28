@@ -9,15 +9,18 @@
 
 </head>
 <body>
-    <header class="flex px-10 py-2 shadow-lg">
-        <img src="../../../images/logo.png" class="" alt="logo du site">
-        <nav class="flex items-center ml-32 w-full">
-            <ul class="flex gap-6 w-full uppercase">
+    <header class="">
+        <img id="logo-desktop" src="../../../images/logo.png" class="" alt="logo du site">
+
+        <!--//TODO Importer un logo de la version tablette avec les bonnes dimensions (ce logo là est mal dimensionné)-->
+        <img id="logo-tablet" src="../../../images/logo-tablet.png" class="" alt="logo du site en version tablette">
+        <nav class="">
+            <ul class="">
                 <li class="navbar_link"><a href="">Accueil</a></li>
                 <li class="navbar_link"><a href="">Blog</a></li>
                 <li class="navbar_link"><a href="">Evenements</a></li>
                 <li class="navbar_link"><a href="">Partenaires</a></li>
-                <li class="navbar_link ml-auto mr-32"><a href="">Je fais un don</a></li>
+                <li class="navbar_link" id="navbar_don"><a href="">Je fais un don</a></li>
             </ul>
         </nav>
     </header>

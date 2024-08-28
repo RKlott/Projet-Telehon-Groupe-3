@@ -1,8 +1,99 @@
 header {
   background-color: #F6F7FB;
+  display: flex;
+  padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+  box-shadow: 0 4px 5px #080808;
 }
-
-.navbar_link {
+header #logo-tablet {
+  display: none;
+}
+@media screen and (max-width: 790px) {
+  header {
+    padding: 1rem 2.5rem 1rem 2.5rem;
+  }
+  header #logo-desktop {
+    display: none;
+  }
+  header #logo-tablet {
+    display: block;
+  }
+}
+header nav {
+  display: flex;
+  align-items: center;
+  margin-left: 8rem;
+  width: 100%;
+}
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  width: 100%;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 790px) {
+  header nav ul {
+    gap: 2rem;
+  }
+}
+header nav ul .navbar_link {
   background-color: #FFCD19;
   padding: 0.5rem 1.75rem 0.5rem 1.75rem;
+  font-size: 18px;
+}
+header nav ul #navbar_don {
+  margin-left: auto;
+}
+@media screen and (max-width: 1190px) {
+  header nav ul #navbar_don {
+    margin-left: inherit;
+  }
+}
+@media screen and (max-width: 1280px) {
+  header nav {
+    margin-left: 4rem;
+    font-size: 14px;
+  }
+}
+
+footer {
+  background-color: #F6F7FB;
+  padding: 2.5rem 0 2.5rem 0;
+  box-shadow: 4px 0 15px #080808;
+}
+footer nav {
+  padding: 0 6rem 0 6rem;
+}
+footer nav ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 1.25rem;
+}
+footer nav ul #footer_first_li {
+  margin-left: 40%;
+}
+@media screen and (max-width: 900px) {
+  footer nav ul #footer_first_li {
+    margin-left: 25%;
+  }
+}
+footer nav ul span {
+  display: flex;
+  gap: 2.5rem;
+  margin-left: auto;
+}
+
+/*
+? display:flex et flex-direction:column pour mettre en colonne le Header, le Main et le Footer
+*/
+body {
+  background-color: #00505A;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }/*# sourceMappingURL=index.css.map */

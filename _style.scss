@@ -1,0 +1,17 @@
+@import "./public/css/scss/utils/variables";
+
+/*
+? display:flex et flex-direction:column pour mettre en colonne le Header, le Main et le Footer
+*/
+body{
+    background-color: $background-front;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+//? flex:1 pour demander au Main de prendre tout l'espace possible à la verticale, pour pousser le footer à rester
+//? en bas
+main{
+    flex: 1;
+}
