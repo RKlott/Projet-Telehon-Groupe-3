@@ -1,0 +1,9 @@
+@import "../utils/variables";
+
+header{
+    background-color: $white-color;
+}
+.navbar_link{
+    background-color: $background-yellow;
+    padding: 0.5rem 1.75rem 0.5rem 1.75rem;
+}

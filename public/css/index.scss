@@ -18,15 +18,15 @@
 
 //*Pages
 ///*front-office
-@import "../../style.scss"; //? fichier style du index.php
-@import "../pages/front-office/_compteur/compteur.scss";
-@import "../pages/front-office/blog/blog.scss";
-@import "../pages/front-office/evenements/evenements.scss";
-@import "../pages/front-office/partenaires/partenaires.scss";
+@import "../../style"; //? fichier style du index.php
+@import "../pages/front-office/_compteur/compteur";
+@import "../pages/front-office/blog/blog";
+@import "../pages/front-office/evenements/evenements";
+@import "../pages/front-office/partenaires/partenaires";
 ///*back-office
-@import "../pages/back-office/blog/blog.scss";
-@import "../pages/back-office/collectes/collectes.scss";
-@import "../pages/back-office/evenements/evenements.scss";
-@import "../pages/back-office/partenaires/partenaires.scss";
-@import "../pages/back-office/profil/profil.scss";
-@import "../pages/back-office/utilisateurs/utilisateurs.scss";
+@import "../pages/back-office/blog/blog";
+@import "../pages/back-office/collectes/collectes";
+@import "../pages/back-office/evenements/evenements";
+@import "../pages/back-office/partenaires/partenaires";
+@import "../pages/back-office/profil/profil";
+@import "../pages/back-office/utilisateurs/utilisateurs";
