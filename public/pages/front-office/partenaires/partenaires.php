@@ -16,9 +16,9 @@
 <?php require '../../../../include/header.php'; ?>
 
 <main>
-    <div class="compteur">
+    <div class="partenaires_c">
         <h1>Partenaires</h1>
-        <div>
+        
             <p>Nous tenons à exprimer notre profonde gratitude envers tous nos partenaires,
                 sans qui notre mission ne pourrait être accomplie.
                 Ces entreprises, associations et institutions nous soutiennent avec engagement et générosité,
@@ -29,10 +29,10 @@
                 côtés,
                 œuvrent pour un avenir meilleur.
             </p>
-        </div>
-        <div class="cartes">
+        
+        <div class="partenaires_cartes">
 
-            <div class="carte">
+            <div class="partenaires_carte">
                 <div>
                     <H2>AFM-Téléthon</H2>
                     <p>
@@ -48,7 +48,7 @@
                 </div>
             </div>
 
-            <div class="carte">
+            <div class="partenaires_carte">
                 <div>
                     <H2>Decathlon SA</H2>
                     <p>
@@ -70,7 +70,7 @@
                 </div>
             </div>
 
-            <div class="carte">
+            <div class="partenaires_carte">
                 <div>
                     <H2>Auchan Retail International</H2>
                     <p>
@@ -93,7 +93,7 @@
                 </div>
             </div>
 
-            <div class="carte">
+            <div class="partenaires_carte">
                 <div>
                     <H2>Crédit Agricole SA</H2>
                     <p>
@@ -115,7 +115,7 @@
                 </div>
             </div>
 
-            <div class="carte">
+            <div class="partenaires_carte">
                 <div>
                     <H2>Castorama France</H2>
                     <p>
