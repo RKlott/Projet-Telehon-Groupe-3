@@ -138,10 +138,45 @@ main {
   font-size: 128px;
 }
 
+body {
+  color: red;
+}
+
 .partenaires_containe {
-  background-color: E8E7E3;
+  background-color: #E8E7E3;
+}
+
+.partenaires_cartes {
+  display: flex;
+}
+
+.partenaires_carte {
+  display: flex;
+  -moz-columns: 1;
+       columns: 1;
 }
 
 .backoffice_background {
   background-color: #B0388D;
+}
+
+#connexion_main-section #connexion_main-container {
+  display: flex;
+  width: 68rem;
+  padding: 5rem;
+  background-color: #F6F7FB;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#connexion_main-section #connexion_main-container #connexion_form {
+  flex-direction: column;
+  text-align: center;
+  flex: 1;
+}
+#connexion_main-section #connexion_main-container #connexion_form form {
+  display: flex;
+  text-align: start;
+  flex-direction: column;
 }/*# sourceMappingURL=index.css.map */
