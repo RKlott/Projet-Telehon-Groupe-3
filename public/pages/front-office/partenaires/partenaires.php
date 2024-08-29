@@ -19,18 +19,19 @@
     <div class="partenaires_container">
         <div class="partenaires_containe">
             <h1>Partenaires</h1>
-
-            <p>Nous tenons à exprimer notre profonde gratitude envers tous nos partenaires,
-                sans qui notre mission ne pourrait être accomplie.
-                Ces entreprises, associations et institutions nous soutiennent avec engagement et générosité,
-                contribuant ainsi de manière significative à la réussite de nos actions.
-                Chaque partenariat est pour nous un témoignage de confiance et un véritable moteur qui nous permet
-                d'avancer,
-                jour après jour, dans la réalisation de nos objectifs. Découvrez ci-dessous les acteurs qui, à nos
-                côtés,
-                œuvrent pour un avenir meilleur.
-            </p>
-
+            <div class="partenaires_header" >
+                <p>
+                    Nous tenons à exprimer notre profonde gratitude envers tous nos partenaires,
+                    sans qui notre mission ne pourrait être accomplie.
+                    Ces entreprises, associations et institutions nous soutiennent avec engagement et générosité,
+                    contribuant ainsi de manière significative à la réussite de nos actions.
+                    Chaque partenariat est pour nous un témoignage de confiance et un véritable moteur qui nous permet
+                    d'avancer,
+                    jour après jour, dans la réalisation de nos objectifs. Découvrez ci-dessous les acteurs qui, à nos
+                    côtés,
+                    œuvrent pour un avenir meilleur.
+                </p>
+            </div>
             <div class="partenaires_cartes">
 
                 <div class="partenaires_carte">
@@ -48,7 +49,7 @@
                         <button>Visiter le site</button>
                     </div>
                 </div>
-
+            <!--
                 <div class="partenaires_carte">
                     <div>
                         <H2>Decathlon SA</H2>
@@ -138,7 +139,7 @@
                     </div>
                 </div>
 
-            </div>
+            </div>-->
         </div>
     </div>
 
