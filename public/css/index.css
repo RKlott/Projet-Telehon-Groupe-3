@@ -223,14 +223,18 @@ main {
   width: 68rem;
   padding: 5rem;
   background-color: #F6F7FB;
+  border-radius: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 #connexion_main-section #connexion_main-container #connexion_logo-section {
+  display: flex;
+  align-items: center;
+}
+#connexion_main-section #connexion_main-container #connexion_logo-section img {
   border-right: 1px solid #080808;
-  height: 420px;
 }
 #connexion_main-section #connexion_main-container #connexion_form {
   display: flex;
@@ -267,12 +271,14 @@ main {
 }
 #connexion_main-section #connexion_main-container #connexion_form form label {
   font-size: 16px;
+  line-height: 20px;
 }
 #connexion_main-section #connexion_main-container #connexion_form form input {
   width: 24rem;
   padding: 1.05rem 0.75rem;
   font-size: 18px;
   background-color: #e7e1e5;
+  box-shadow: inset rgb(73, 73, 73) -2px 2px 6px -2px;
 }
 #connexion_main-section #connexion_main-container #connexion_form form #submit_input {
   color: #F6F7FB;
@@ -281,4 +287,7 @@ main {
   padding: 0.75rem;
   margin-top: 2rem;
   background-color: #B0388D;
+}
+#connexion_main-section #connexion_main-container #connexion_form form #form_webmaster_contact a {
+  color: rgb(73, 1, 73);
 }/*# sourceMappingURL=index.css.map */

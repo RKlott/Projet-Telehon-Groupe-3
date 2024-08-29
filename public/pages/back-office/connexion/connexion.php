@@ -23,14 +23,14 @@
                 <form action="">
                     <div id="connexion_form_container">
                         <span class="connexion_form_span">
-                            <label for="fname">Email</label>
-                            <input type="text" name="fname" id="fname">
+                            <label for="femail">Email</label>
+                            <input type="email" name="femail" id="femail" placeholder="Votre adresse e-mail...">
                         </span>
 
                         <span class="connexion_form_span">
                         <label for="fpassword">Mot de passe</label>
 
-                        <input type="text" name="fpassword" id="fpassword">
+                        <input type="password" name="fpassword" id="fpassword" placeholder="Votre mot de passe...">
                         <a href="">Mot de passe oublié ?</a>
                         </span>
                     </div>
