@@ -200,6 +200,10 @@ main {
   font-size: 128px;
 }
 
+body {
+  color: red;
+}
+
 .partenaires_containe {
   background-color: #E8E7E3;
 }
@@ -210,8 +214,7 @@ main {
 
 .partenaires_carte {
   display: flex;
-  -moz-columns: 1;
-       columns: 1;
+  columns: 1;
 }
 
 .backoffice_background {
@@ -281,4 +284,6 @@ main {
   padding: 0.75rem;
   margin-top: 2rem;
   background-color: #B0388D;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */
