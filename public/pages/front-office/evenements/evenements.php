@@ -16,7 +16,28 @@
 <?php  require '../../../../include/header.php'; ?>
 
 <main>
-    Le conentu de la page
+    <div class="compteur">
+        <div class="chiffres_compteur">
+            <div class="chiffre_compteur">
+                <p class="texte_chiffre_compteur">1</p>
+            </div>
+            <div class="chiffre_compteur">
+                <p class="texte_chiffre_compteur">2</p>
+            </div>
+            <div class="virgule_compteur">
+                <p class="texte_virgule_compteur">,</p>
+            </div>
+            <div class="chiffre_compteur">
+                <p class="texte_chiffre_compteur">3</p>
+            </div>
+            <div class="chiffre_compteur">
+                <p class="texte_chiffre_compteur">4</p>
+            </div>
+            <div class="chiffre_compteur">
+                <p class="texte_chiffre_compteur">2</p>
+            </div>
+        </div>
+    </div>
 
 </main>
 

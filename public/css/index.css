@@ -97,4 +97,43 @@ body {
 
 main {
   flex: 1;
+}
+
+.compteur {
+  width: 1400px;
+  height: 370px;
+  background-color: #FFCD19;
+  margin: auto;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chiffres_compteur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chiffre_compteur {
+  width: 163px;
+  height: 211px;
+  background-color: #F6F7FB;
+  margin: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.virgule_compteur {
+  margin: 12px;
+}
+
+.texte_chiffre_compteur {
+  font-size: 128px;
+}
+
+.texte_virgule_compteur {
+  font-size: 128px;
 }/*# sourceMappingURL=index.css.map */
