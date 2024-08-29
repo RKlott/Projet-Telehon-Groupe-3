@@ -138,10 +138,6 @@ main {
   font-size: 128px;
 }
 
-body {
-  color: red;
-}
-
 .partenaires_containe {
   background-color: #E8E7E3;
 }
@@ -170,13 +166,57 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+#connexion_main-section #connexion_main-container #connexion_logo-section {
+  border-right: 1px solid #080808;
+  height: 420px;
+}
 #connexion_main-section #connexion_main-container #connexion_form {
+  display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
   flex: 1;
+}
+#connexion_main-section #connexion_main-container #connexion_form h2 {
+  width: 70%;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #080808;
 }
 #connexion_main-section #connexion_main-container #connexion_form form {
   display: flex;
-  text-align: start;
   flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
+#connexion_main-section #connexion_main-container #connexion_form form #connexion_form_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#connexion_main-section #connexion_main-container #connexion_form form .connexion_form_span {
+  display: flex;
+  flex-direction: column;
+  text-align: start !important;
+}
+#connexion_main-section #connexion_main-container #connexion_form form .connexion_form_span a {
+  margin-top: 0.35rem;
+  text-align: center;
+  color: #080808;
+}
+#connexion_main-section #connexion_main-container #connexion_form form label {
+  font-size: 16px;
+}
+#connexion_main-section #connexion_main-container #connexion_form form input {
+  width: 24rem;
+  padding: 1.05rem 0.75rem;
+  font-size: 18px;
+  background-color: #e7e1e5;
+}
+#connexion_main-section #connexion_main-container #connexion_form form #submit_input {
+  color: #F6F7FB;
+  font-weight: 600;
+  width: 25.5rem;
+  padding: 0.75rem;
+  margin-top: 2rem;
+  background-color: #B0388D;
 }/*# sourceMappingURL=index.css.map */
