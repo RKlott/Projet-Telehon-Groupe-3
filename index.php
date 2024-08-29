@@ -4,6 +4,12 @@
 <?php $desktop_logo_path = "./public/images/logo.png"?>
 <?php $tablet_logo_path = "./public/images/logo-tablet.png"?>
 
+
+<?php $accueil_page_path ="./index.php"?>
+<?php $blog_page_path ="./public/pages/front-office/blog/blog.php"?>
+<?php $evenements_page_path ="./public/pages/front-office/evenements/evenements.php"?>
+<?php $partenaires_page_path ="./public/pages/front-office/partenaires/partenaires.php"?>
+
 <?php require './include/header.php'; ?>
 
 <main>

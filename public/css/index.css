@@ -36,16 +36,16 @@ header nav ul {
     gap: 2rem;
   }
 }
-header nav ul .navbar_link {
+header nav ul .frontoffice_navbar_link {
   background-color: #FFCD19;
   padding: 0.5rem 1.75rem 0.5rem 1.75rem;
   font-size: 18px;
 }
-header nav ul #navbar_don {
+header nav ul #navbar_last_element {
   margin-left: auto;
 }
 @media screen and (max-width: 1190px) {
-  header nav ul #navbar_don {
+  header nav ul #navbar_last_element {
     margin-left: inherit;
   }
 }
