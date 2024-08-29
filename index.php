@@ -13,6 +13,9 @@
 <?php require './include/header.php'; ?>
 
 <main>
+    <div class="hero-banner">
+        <img src="./public/images/hero_banner.webp" alt="">
+    </div>
     Le conentu de la page
 
 </main>
