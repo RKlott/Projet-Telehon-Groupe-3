@@ -1,6 +1,10 @@
 h1 {
   text-align: center;
 }
+.partenaires_header {
+  display: block;
+}
+
 
 .partenaires_header {
   display: block;
@@ -11,7 +15,9 @@ h1 {
 }
 
 .partenaires_cartes {
-  display: flex;
+  display: block;
+  justify-content: space-between;
+
 }
 
 .partenaires_carte {
