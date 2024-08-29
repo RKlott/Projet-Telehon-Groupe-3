@@ -11,9 +11,7 @@ h1 {
 }
 
 .partenaires_cartes {
-  display: block;
-  justify-content: space-between;
-
+  display: flex;
 }
 
 .partenaires_carte {
