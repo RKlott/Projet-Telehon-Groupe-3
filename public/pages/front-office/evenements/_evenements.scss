@@ -1,9 +1,22 @@
+
+.main {
+    box-sizing: border-box;
+}
+
+.event_wrapper_top {
+    background-color: $wrapper-color;
+    width: 1140px;
+    height: 120px;
+    margin: auto;
+}
+
+// --------------COMPTEUR-------------
+
 .compteur {
     width: 1400px;
     height: 370px;
     background-color: $background-yellow;
     margin: auto;
-    margin-top: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,3 +49,270 @@
 .texte_virgule_compteur {
     font-size: 128px;
 }
+
+
+// -----SECTION EVENEMENTS-----
+
+
+.event_evenements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1140px;
+    margin: auto;
+    margin-bottom: 0;
+    background-color: $wrapper-color;
+}
+
+.event_titre {
+    display: flex;
+    justify-content: center;
+    font-size: 96px;
+    text-transform: uppercase;
+}
+
+.event_card {
+    display: flex;
+    align-items: center;
+    background-color: $white-color;
+    width: 89%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 4px $black-color;
+    margin-bottom: 4rem;
+}
+
+.event_photo {
+    width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin: 1rem;
+}
+
+// .event_photo img {
+//     width: 100%;
+// }
+
+.event_titre_contenu_card {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0rem 1rem 0rem 0rem;
+}
+
+.event_paragraph_contenu_card {
+    font-size: 24px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.event_cta_date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.event_btn_cta_card{
+    font-weight: 600;
+    font-size: 24px;
+    padding: 1rem 3rem;
+    color: $white-color;
+    background-color: $link-color;
+    border: solid 3px $white-color;
+}
+
+.event_btn_cta_card:hover{
+    color: $link-color;
+    background-color: $white-color;
+    border: solid 3px $link-color;
+}
+
+.event_date_card{
+    font-size: 24px;
+}
+
+
+// ------ RESPONSIVE ------
+
+@media screen and (max-width: 1400px) {
+    // ---------COMPTEUR----------
+    .compteur {
+        width: 1216px;
+        height: 321px;
+    }
+
+    .chiffre_compteur {
+        width: 143px;
+        height: 183px;
+    }
+
+    .texte_chiffre_compteur {
+        font-size: 110px;
+    }
+    
+    .texte_virgule_compteur {
+        font-size: 110px;
+    }
+
+  
+ 
+  }
+
+  @media screen and (max-width: 1216px) {
+    .compteur {
+        width: 900px;
+        height: 238px;
+    }
+
+    .chiffre_compteur {
+        width: 106px;
+        height: 135px;
+    }
+
+    .texte_chiffre_compteur {
+        font-size: 81px;
+    }
+    
+    .texte_virgule_compteur {
+        font-size: 81px;
+    }
+
+    .event_evenements,.event_wrapper_top {
+        width: 729px;
+    }
+
+    .event_wrapper_top {
+        height: 77px;
+    }
+
+      // ---------SECTION EVENEMENTS--------
+
+      .event_titre {
+        font-size: 61px;
+    }
+
+    .event_titre_contenu_card {
+        font-size: 16px;
+    }
+    
+    .event_paragraph_contenu_card {
+        font-size: 16px;
+    }
+    
+    
+    .event_btn_cta_card{
+        font-size: 16px;
+        // padding: 1rem 1.5rem;
+    }
+    
+    .event_btn_cta_card:hover{
+        font-size: 16px;
+    }
+    
+    .event_date_card{
+        font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .compteur {
+        width: 680px;
+        height: 180px;
+    }
+
+    .chiffre_compteur {
+        width: 80px;
+        height: 102px;
+    }
+
+    .texte_chiffre_compteur {
+        font-size: 61px;
+    }
+    
+    .texte_virgule_compteur {
+        font-size: 61px;
+    }
+
+    .event_evenements,.event_wrapper_top {
+        width: 550px;
+    }
+
+    .event_wrapper_top {
+        height: 58px;
+    }
+
+      // ---------SECTION EVENEMENTS--------
+
+      .event_titre {
+        font-size: 46px;
+    }
+  }
+
+  @media screen and (max-width: 680px) {
+    .compteur {
+        width: 450px;
+        height: 119px;
+    }
+
+    .chiffre_compteur {
+        width: 53px;
+        height: 68px;
+    }
+
+    .texte_chiffre_compteur {
+        font-size: 41px;
+    }
+    
+    .texte_virgule_compteur {
+        font-size: 41px;
+    }
+
+    .event_evenements,.event_wrapper_top {
+        width: 364px;
+    }
+    .event_wrapper_top {
+        height: 38px;
+    }
+
+      // ---------SECTION EVENEMENTS--------
+
+      .event_titre {
+        font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .compteur {
+        width: 320px;
+        height: 85px;
+    }
+
+    .chiffre_compteur {
+        width: 37px;
+        height: 48px;
+    }
+
+    .texte_chiffre_compteur {
+        font-size: 29px;
+    }
+    
+    .texte_virgule_compteur {
+        font-size: 29px;
+    }
+
+    .event_evenements,.event_wrapper_top {
+        width: 300px;
+    }
+    .event_wrapper_top {
+        height: 32px;
+    }
+
+    .chiffre_compteur {
+        margin: 6px;
+    }
+
+      // ---------SECTION EVENEMENTS--------
+
+      .event_titre {
+        font-size: 24px;
+    }
+  }
