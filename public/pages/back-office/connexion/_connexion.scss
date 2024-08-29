@@ -18,18 +18,78 @@
         left: 50%;
         transform: translate(-50%, -50%);
 
+        #connexion_logo-section{
+            border-right: 1px solid $black-color;
+            height: 420px;
+        }
+
         #connexion_form{
+            display: flex;
             flex-direction: column;
             text-align: center;
+            align-items: center;
             flex: 1;
+
+            h2{
+                width: 70%;
+                padding-bottom: 1rem;
+                border-bottom: 1px solid $black-color;
+        
+            }
 
             form{
                 display: flex;
-                text-align: start;
                 flex-direction: column;
+                align-items: center;
+                font-size: 18px;
+
+                #connexion_form_container{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                }
+
+                .connexion_form_span{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: start !important;
+
+                    a{
+                        margin-top: 0.35rem;
+                        text-align: center;
+                        color: $black-color;
+                    }
+                }
+
+                label{
+                    font-size: 16px;
+                }
+
+                input{
+                    width: 24rem;
+                    padding: 1.05rem 0.75rem;
+                    font-size: 18px;
+                    background-color: $form-gray-color;
+                    
+
+                }
+
+                #submit_input{
+                    color: $white-color;
+                    font-weight: 600;
+                    width: 25.5rem;
+                    padding: 0.75rem;
+                    margin-top: 2rem;
+                    background-color: $background-back;
+ 
+
+                }
+
+                #form_webmaster_contact{
+
+                }
             }
         }
     }
-
-
 }
+
