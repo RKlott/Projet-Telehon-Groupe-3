@@ -1,18 +1,12 @@
-h1 {
-  text-align: center;
+body{
+  color: yellow;
 }
-.partenaires_header {
-  display: block;
-}
-
 .partenaires_containe {
   background-color: #E8E7E3;
 }
 
 .partenaires_cartes {
-  display: block;
-  justify-content: space-between;
-
+  display: flex;
 }
 
 .partenaires_carte {
