@@ -138,8 +138,22 @@ main {
   font-size: 128px;
 }
 
+body {
+  color: red;
+}
+
 .partenaires_containe {
-  background-color: E8E7E3;
+  background-color: #E8E7E3;
+}
+
+.partenaires_cartes {
+  display: flex;
+}
+
+.partenaires_carte {
+  display: flex;
+  -moz-columns: 1;
+       columns: 1;
 }
 
 .backoffice_background {
