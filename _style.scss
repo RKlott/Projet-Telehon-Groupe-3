@@ -15,3 +15,84 @@ body{
 main{
     flex: 1;
 }
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+
+
+.accueil_section-blog{
+ 
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+
+
+
+.accueil_carte{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+   
+    width: 300px;
+    background-color: beige;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgb(197, 193, 193);
+    border-radius: 8px 8px;
+  
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+
+    
+
+
+}
+
+.accueil_button-article{
+    background-color: rgb(157, 0, 255);
+    text-align: center;
+    color: #fff;
+    height: 25px;
+    
+    
+}
+
+.accueil_button-even{
+    text-align: center;
+    background-color: rgb(157, 0, 255);
+    color: #fff;
+    width: 260px;
+    height: 35px;
+    align-items: center;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    justify-content: center;
+
+  
+}
+
+.accueil_titre{
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+}
+
