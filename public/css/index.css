@@ -138,6 +138,10 @@ main {
   font-size: 128px;
 }
 
+.partenaires_containe {
+  background-color: E8E7E3;
+}
+
 .backoffice_background {
   background-color: #B0388D;
 }
