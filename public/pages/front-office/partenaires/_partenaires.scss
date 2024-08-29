@@ -1,3 +1,15 @@
+body{
+  color: #FFCD19;
+}
 .partenaires_containe {
-  background-color: E8E7E3;
+  background-color: #E8E7E3;
+}
+
+.partenaires_cartes {
+  display: flex;
+}
+
+.partenaires_carte {
+  display: flex;
+  columns: 1;
 }
