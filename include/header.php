@@ -16,11 +16,11 @@
         <img id="logo-tablet" src=<?= $tablet_logo_path?> class="" alt="logo du site en version tablette">
         <nav class="">
             <ul class="">
-                <li class="navbar_link"><a href="">Accueil</a></li>
-                <li class="navbar_link"><a href="">Blog</a></li>
-                <li class="navbar_link"><a href="">Evenements</a></li>
-                <li class="navbar_link"><a href="">Partenaires</a></li>
-                <li class="navbar_link" id="navbar_don"><a href="">Je fais un don</a></li>
+                <li class="frontoffice_navbar_link"><a href=<?= $accueil_page_path?>>Accueil</a></li>
+                <li class="frontoffice_navbar_link"><a href=<?= $blog_page_path?>>Blog</a></li>
+                <li class="frontoffice_navbar_link"><a href=<?= $evenements_page_path?>>Evenements</a></li>
+                <li class="frontoffice_navbar_link"><a href=<?= $partenaires_page_path?>>Partenaires</a></li>
+                <li class="frontoffice_navbar_link" id="navbar_last_element"><a href="#">Je fais un don</a></li>
             </ul>
         </nav>
     </header>

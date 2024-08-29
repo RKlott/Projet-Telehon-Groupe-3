@@ -1,0 +1,38 @@
+.compteur {
+    width: 1400px;
+    height: 370px;
+    background-color: $background-yellow;
+    margin: auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chiffres_compteur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chiffre_compteur {
+    width: 163px;
+    height: 211px;
+    background-color: $white-color;
+    margin: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.virgule_compteur {
+    margin: 12px;
+}
+
+.texte_chiffre_compteur {
+    font-size: 128px;
+}
+
+.texte_virgule_compteur {
+    font-size: 128px;
+}
