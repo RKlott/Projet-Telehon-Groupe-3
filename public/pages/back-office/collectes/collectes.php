@@ -1,5 +1,10 @@
 <?php $page_title = 'Collectes' ?>
 
+<?php $css_path = "../../../css/index.css"?>
+
+<?php $facebook_logo_path = "../../../images/facebook-desktop-logo.png"?>
+<?php $instagram_logo_path = "../../../images/instagram-desktop-logo.png"?>
+
 <?php  require '../include/header.php'; ?>
 
 <main>
@@ -7,4 +12,4 @@
 
 </main>
 
-<?php  require '../include/footer.php'; ?>
+<?php  require '../../../../include/footer.php'; ?>
