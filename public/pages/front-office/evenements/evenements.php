@@ -55,10 +55,8 @@
             <img src="../../../images/repas_dansant_mini.webp" alt="un repas dansant">
         </div>
         <div class="event_contenu_card">
-            <div class="event_test">
             <h3 class="event_titre_contenu_card">Repas dansant</h3>
             <p class="event_paragraph_contenu_card">Profitez d'une soirée conviviale avec un délicieux repas suivi d'une ambiance festive sur la piste de danse. Venez vous amuser tout en soutenant la cause du Téléthon !</p>
-            </div>
             <div class="event_cta_date">
                 <a class="event_btn_cta_card" href="http://">Voir les détails</a>
                 <p class="event_date_card">6 septembre 2024 à 19h00</p>
